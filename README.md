@@ -73,6 +73,8 @@ predicted_class = np.argmax(prediction, axis=1)
 
 # Map the predicted class index to the class label
 class_labels = ['Recyclable', 'Non-Recyclable']
-print(f'Predicted Class: {class_labels[predicted_class[0]]}')```
+print(f'Predicted Class: {class_labels[predicted_class[0]]}')
 ```
+
+## h
 
