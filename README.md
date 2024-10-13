@@ -46,6 +46,13 @@ The models have been saved in the models directory. To load a saved model and ma
 ```bash
 from keras.models import load_model
 
+### Loading the Model and Making Predictions
+
+To load the trained model and make predictions on new images, you can use the following code:
+
+```python
+from keras.models import load_model
+
 # Load the desired model
 model_path = 'saved_models/waste_classification_model.h5'
 model = load_model(model_path)
