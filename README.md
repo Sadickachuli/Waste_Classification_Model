@@ -38,11 +38,12 @@ The dataset was split into training and validation sets to evaluate the performa
 You can install the required packages using pip:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras```
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
 
 ## Loading the Saved Models
 The models have been saved in the models directory. To load a saved model and make predictions, use the following code snippet in a new Jupyter Notebook cell:
 
+```bash
 from keras.models import load_model
 
 # Load the desired model
