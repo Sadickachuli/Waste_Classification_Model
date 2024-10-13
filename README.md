@@ -50,7 +50,7 @@ from keras.models import load_model
 
 To load the trained model and make predictions on new images, you can use the following code:
 
-```python
+```bash
 from keras.models import load_model
 
 # Load the desired model
