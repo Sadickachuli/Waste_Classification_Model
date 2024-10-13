@@ -45,11 +45,11 @@ The models have been saved in the models directory. To load a saved model and ma
 
 ```sh
 from keras.models import load_model
-
+```
 ### Loading the Model and Making Predictions
 
 To load the trained model and make predictions on new images, you can use the following code:
-```
+
 ```sh
 from keras.models import load_model
 
