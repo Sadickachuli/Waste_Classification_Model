@@ -39,7 +39,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
-
+```
 ## Loading the Saved Models
 The models have been saved in the models directory. To load a saved model and make predictions, use the following code snippet in a new Jupyter Notebook cell:
 
@@ -74,3 +74,5 @@ predicted_class = np.argmax(prediction, axis=1)
 # Map the predicted class index to the class label
 class_labels = ['Recyclable', 'Non-Recyclable']
 print(f'Predicted Class: {class_labels[predicted_class[0]]}')
+```
+
