@@ -40,7 +40,8 @@ The dataset was split into training, testing, and validation sets to evaluate th
 
     
 Based on the size of the dataset, saved models were pretty huge to upload on github. I will include a link to the model saved on google drive.
-(https://drive.google.com/drive/folders/1Huego0_kLFRAwhmSGAWM5im2jYYHO8Rd?usp=drive_link)
+
+( https://drive.google.com/drive/folders/1Huego0_kLFRAwhmSGAWM5im2jYYHO8Rd?usp=drive_link )
 
 You can install the required packages using pip:
 
